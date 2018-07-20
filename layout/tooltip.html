@@ -1,0 +1,36 @@
+<!DOCTYPE html> 
+<html> 
+  <head>
+    <title>jQuery UI Draggable  :  Limit the Drag Region</title> 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.3/themes/hot-sneaks/jquery-ui.css" />
+  <script src="http://code.jquery.com/jquery-2.1.3.js"></script>
+  <script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+    <style>
+      .demoDrag{width: 200px; background-color:#44c756; font-family:Verdana;
+            margin: 4px; text-align: center; border:5px solid #ccc; padding: 4px;
+        box-shadow:5px -5px 5px #999; margin:20px;}
+       #myContainer { border: 5px dashed #666; width: 500px; height: 300px}
+    </style>
+    <script>
+         $(document).ready(function() {
+           $('.demoDrag').draggable({
+                containment: "parent"
+            }).filter('#drag_X').draggable("option", "axis", "x");
+            
+        });
+
+    </script>
+</head> 
+<body>
+  <div id="myContainer">
+    <div id="drag_Y" class="demoDrag">
+        Drag Only along Y Axis
+    </div>
+    <div id="drag_X" class="demoDrag">
+        Drag Only Along X Axis
+    </div>    
+  </div>
+  <p>None of the Draggables Cannot be moved outside the Container</p>
+</body>
+</html>

@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Campañas</title>
+  <!-- plugins:css -->
+  <link rel="stylesheet" href="../../vendors/iconfonts/mdi/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="../../vendors/css/vendor.bundle.base.css">
+  <link rel="stylesheet" href="../../vendors/css/vendor.bundle.addons.css">
+  <link rel="stylesheet" href="../../vendors/iconfonts/ti-icons/css/themify-icons.css">
+
+
+  <!-- endinject -->
+  <!-- plugin css for this page -->
+  <!-- End plugin css for this page -->
+  <!-- inject:css -->
+  <link rel="stylesheet" href="../../css/style.css">
+  <link rel="stylesheet" href="../../css/cmanager.css">
+  <!-- endinject -->
+  <link rel="shortcut icon" href="" />
+</head>
+<body class="sidebar-fixed">
+  <div class="container-scroller">
+    <!-- partial:../../partials/_navbar.html -->
+    <nav class="navbar default-layout col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+      <div class="text-center navbar-brand-wrapper d-flex align-items-top justify-content-center">
+        <a class="navbar-brand brand-logo" href="#"></a>
+        <a class="navbar-brand brand-logo-mini" href="#"></a>
+      </div>
+      <div class="navbar-menu-wrapper d-flex align-items-center">
+        <ul class="navbar-nav navbar-nav-left header-links d-none d-md-flex">
+          <li class="nav-item">
+            <a href="nueva-campana.html" class="nav-link nav-link-guardar"><i class="ti-plus"></i>Nueva Campaña</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav navbar-nav-right">
+          <li class="nav-item dropdown">
+            <a class="nav-link count-indicator dropdown-toggle" id="messageDropdown" href="#" data-toggle="dropdown" aria-expanded="false">
+              <i class="mdi mdi-message-text-outline"></i>
+              <span class="count bg-warning">3</span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="messageDropdown">
+              <div class="dropdown-item py-3">
+                <p class="mb-0 font-weight-medium float-left">Tienes 3 mensajes no leidos
+                </p>
+                <span class="badge badge-inverse-info badge-pill float-right">Ver todo</span>
+              </div>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item preview-item">
+                <div class="preview-thumbnail">
+                  <img src="https://placehold.it/100x100" alt="image" class="profile-pic">
+                </div>
+                <div class="preview-item-content flex-grow">
+                  <h6 class="preview-subject ellipsis font-weight-normal text-dark mb-1">Alvaro Guzman
+                    <span class="float-right font-weight-light small-text text-gray">1 Min atrás</span>
+                  </h6>
+                  <p class="font-weight-light small-text mb-0">
+                    La reunión ha sido cancelada
+                  </p>
+                </div>
+              </a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item preview-item">
+                <div class="preview-thumbnail">
+                  <img src="https://placehold.it/100x100" alt="image" class="profile-pic">
+                </div>
+                <div class="preview-item-content flex-grow">
+                  <h6 class="preview-subject ellipsis font-weight-normal text-dark mb-1">Jorge Henriquez
+                    <span class="float-right font-weight-light small-text text-gray">15 Min atrás</span>
+                  </h6>
+                  <p class="font-weight-light small-text mb-0">
+                    Nueva campaña ha sido creada
+                  </p>
+                </div>
+              </a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item preview-item">
+                <div class="preview-thumbnail">
+                  <img src="https://placehold.it/100x100" alt="image" class="profile-pic">
+                </div>
+                <div class="preview-item-content flex-grow">
+                  <h6 class="preview-subject ellipsis font-weight-normal text-dark mb-1"> Jonathan Sanchez
+                    <span class="float-right font-weight-light small-text text-gray">8 Min atrás</span>
+                  </h6>
+                  <p class="font-weight-light small-text mb-0">
+                    Reunión agendada
+                  </p>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link count-indicator dropdown-toggle" id="notificationDropdown" href="#" data-toggle="dropdown">
+              <i class="mdi mdi-bell-outline"></i>
+              <span class="count bg-success">4</span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="notificationDropdown">
+              <a class="dropdown-item py-3">
+                <p class="mb-0 font-weight-medium float-left">Tienes 3 notificaciones
+                </p>
+                <span class="badge badge-pill badge-inverse-info float-right">Ver todo</span>
+              </a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item preview-item">
+                <div class="preview-thumbnail">
+                  <div class="preview-icon bg-inverse-success">
+                    <i class="mdi mdi-alert-circle-outline mx-0"></i>
+                  </div>
+                </div>
+                <div class="preview-item-content">
+                  <h6 class="preview-subject font-weight-normal text-dark mb-1">Erro de aplicación</h6>
+                  <p class="font-weight-light small-text mb-0">
+                    Recién
+                  </p>
+                </div>
+              </a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item preview-item">
+                <div class="preview-thumbnail">
+                  <div class="preview-icon bg-inverse-warning">
+                    <i class="mdi mdi-comment-text-outline mx-0"></i>
+                  </div>
+                </div>
+                <div class="preview-item-content">
+                  <h6 class="preview-subject font-weight-normal text-dark mb-1">Configuración Cmanager</h6>
+                  <p class="font-weight-light small-text mb-0">
+                    Mensaje privado
+                  </p>
+                </div>
+              </a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item preview-item">
+                <div class="preview-thumbnail">
+                  <div class="preview-icon bg-inverse-info">
+                    <i class="mdi mdi-email-outline mx-0"></i>
+                  </div>
+                </div>
+                <div class="preview-item-content">
+                  <h6 class="preview-subject font-weight-normal text-dark mb-1">Nuevo usuario</h6>
+                  <p class="font-weight-light small-text mb-0">
+                    2 días atrás
+                  </p>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li class="nav-item d-lg-block color-setting">
+            <a class="nav-link" href="#">
+              <i class="mdi mdi-tune"></i>
+            </a>
+          </li>
+          <li class="nav-item dropdown d-none d-xl-inline-block">
+            <a class="nav-link dropdown-toggle" id="UserDropdown" href="#" data-toggle="dropdown" aria-expanded="false">
+              <span class="mr-3">Hola, Paul!</span><img class="img-xs rounded-circle" src="../../images/imgmb/img-perfil.png" alt="Profile image">
+            </a>
+            <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="UserDropdown">
+              <a class="dropdown-item p-0">
+                <div class="d-flex border-bottom">
+                  <div class="py-3 px-4 d-flex align-items-center justify-content-center"><i class="mdi mdi-bookmark-plus-outline mr-0 text-gray"></i></div>
+                  <div class="py-3 px-4 d-flex align-items-center justify-content-center border-left border-right"><i class="mdi mdi-account-outline mr-0 text-gray"></i></div>
+                  <div class="py-3 px-4 d-flex align-items-center justify-content-center"><i class="mdi mdi-alarm-check mr-0 text-gray"></i></div>
+                </div>
+              </a>
+              <a class="dropdown-item mt-2">
+                Mi cuenta
+              </a>
+              <a class="dropdown-item">
+                Cambiar contraseña
+              </a>
+              <a class="dropdown-item">
+                Revisar inbox
+              </a>
+              <a class="dropdown-item">
+                Salir
+              </a>
+            </div>
+          </li>
+        </ul>
+        <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
+          <span class="icon-menu"></span>
+        </button>
+      </div>
+    </nav>
+    <!-- partial -->
+    <div class="container-fluid page-body-wrapper">
+      <!-- partial:../../partials/_settings-panel.html -->
+      <!-- partial -->
+      <!-- partial:../../partials/_sidebar.html -->
+        <div class="theme-setting-wrapper">
+            <div id="theme-settings" class="settings-panel">
+                <p class="text-center">Selecciona diseño de tu agrado</p>
+                <select name="themepick" id="themepick" class="form-control border-warning">
+                    <option value="defaultstyles" selected>Diseño Original</option>
+                    <option value="customstyle1">Theme Rojo</option>
+                    <option value="customstyle2">Theme Azul</option>
+                    <option value="customstyle3">Theme Green</option>
+                </select>
+
+            </div>
+        </div>
+      <nav class="sidebar sidebar-offcanvas" id="sidebar">
+        <div class="d-flex flex-row tabs-menu">
+          <ul class="nav nav-tabs nav-tabs--vertical nav-tabs--left" role="navigation">
+            <li class="nav-item">
+
+              <a href="dashboard.html" class="nav-link"><img class="img-menu" src="../../images/menu_icons/01.png" alt="menu icon">Dashboard</a>
+            </li>
+            <li class="nav-item">
+              <a href="informes.html" class="nav-link"><img class="img-menu" src="../../images/menu_icons/19.png" alt="menu icon">Informes</a>
+            </li>
+            <li class="nav-item">
+              <a href="analisis.html" class="nav-link"><img class="img-menu" src="../../images/menu_icons/03.png" alt="menu icon">Análisis</a>
+            </li>
+            <li class="nav-item">
+              <a href="#campanas" class="nav-link active" data-toggle="tab" role="tab" aria-controls="campanas"><img class="img-menu" src="../../images/menu_icons/09.png" alt="menu icon">Campañas</a>
+            </li>
+            <li class="nav-item">
+              <a href="configuracion.html" class="nav-link"><img class="img-menu" src="../../images/menu_icons/05.png" alt="menu icon">Configuración</a>
+            </li>
+          </ul>
+          <div class="tab-menu contenedor-tabs-menu">
+            <div class="tab-content">
+            <div class="tab-pane fade" id="dashboard" role="tabpanel">
+              
+            </div>
+            <div class="tab-pane fade" id="informes" role="tabpanel">
+              
+            </div>
+            <div class="tab-pane fade" id="analisis" role="tabpanel">
+
+            </div>
+            <div class="tab-pane active" id="campanas" role="tabpanel">
+              <span class="ttl-barra-vertical">Campañas</span>
+              <ul class="sub-menu">
+                <li class=""><a class="active" href="campanas.html">Lista de campañas</a></li>
+                <li class=""> <a class="" href="nueva-campana.html">Nueva Campaña</a> </li>
+                <li class=""> <a class="" href="campanas-template.html">Templates</a> </li>
+                <li class=""> <a class="" href="campanas-sin-trafico.html">Sin Tráfico</a> </li>
+              </ul>
+            </div>
+            <div class="tab-pane fade" id="configuracion" role="tabpanel">
+
+            </div>
+          </div>
+          </div>
+        </div>
+        
+      </nav>
+      <!-- partial -->
+      <div class="main-panel">
+        <div class="content-wrapper content-wrapper-bg">
+          <div class="row">
+            <div class="col-12 grid-margin">
+              <div class="card card-mb sin-fondo">
+                <div class="card-body card-body-mb tabs-genericas altura">
+
+                  <div class="contenedor-tabs">
+                      <ul class="nav nav-tabs tab-basic" role="tablist">
+                        <li class="nav-item">
+                          <a class="nav-link active" id="home-tab" data-toggle="tab" href="#activas" role="tab" aria-controls="whoweare" aria-selected="true">Activas</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" id="profile-tab" data-toggle="tab" href="#pausadas" role="tab" aria-controls="ourgoal" aria-selected="false">Pausadas</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" id="contact-tab" data-toggle="tab" href="#expirada" role="tab" aria-controls="history" aria-selected="false">Experidas</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" id="contact-tab" data-toggle="tab" href="#incorrecta" role="tab" aria-controls="history" aria-selected="false">Configuracion Incorrecta</a>
+                        </li>
+                      </ul>
+                      <div class="tab-content tab-content-basic bg-tabs">
+                        <div class="tab-pane fade show active" id="activas" role="tabpanel" aria-labelledby="home-tab">
+                          
+                         <div class="row mb-3">
+                          <div class="col-12">
+                            <h1 class="float-left">Campañas Activas</h1>
+                          </div>
+                         </div>
+                         <table id="order-listing" class="table table-responsive">
+                              <thead>
+                                <tr>
+                                    <th>Código</th>
+                                    <th>Nombre</th>
+                                    <th>Inicio</th>
+                                    <th>Término</th>
+                                    <th>Acciones</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                    <td>dd</td>
+                                    <td>dd</td>
+                                    <td>dd</td>
+                                    <td>dd</td>
+                                    <td>dd</td>
+                                </tr>
+                                
+                              </tbody>
+                          </table>  
+                         
+
+                        </div><!-- Fin tab activas-->
+
+                        <div class="tab-pane fade" id="pausadas" role="tabpanel" aria-labelledby="profile-tab">
+                          <div class="row mb-3">
+                            <div class="col-12">
+                              <h1 class="float-left">Campañas Pausadas</h1>
+                            </div>
+                         </div>
+                         <table id="order-listing" class="table table-responsive">
+                              <thead>
+                                <tr>
+                                    <th>Código</th>
+                                    <th>Nombre</th>
+                                    <th>Inicio</th>
+                                    <th>Término</th>
+                                    <th>Acciones</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                    <td>115</td>
+                                    <td>
+                                      <table class="tg table-responsive">
+                                        <thead>
+                                        <tr>
+                                          <th class="tg-us36" colspan="10">Test Mailing</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                          <td class="tg-us36">Seleccionados</td>
+                                          <td class="tg-us38">0</td>
+                                          <td class="tg-us36">Premiados</td>
+                                          <td class="tg-us38">0</td>
+                                          <td class="tg-us36">Notificados</td>
+                                          <td class="tg-us38">0</td>
+                                          <td class="tg-us36">Errores</td>
+                                          <td class="tg-us38">0</td>
+                                          <td class="tg-us36">Efectividad</td>
+                                          <td class="tg-us38">0</td>
+                                        </tr>
+                                        </tbody>
+                                      </table>
+
+
+                                    </td>
+                                    <td>2018/06/18<br>19:24:17</td>
+                                    <td>2018/06/18<br>19:24:17</td>
+                                    <td>
+                                      <a href="#" class="ico-edit"><i class="ti-pencil"></i></a>
+                                      <a href="#" class="ico-eliminar"><i class="ti-trash"></i></a>
+                                      <a href="#" class="ico-play"><i class="ti-control-play"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>112</td>
+                                    <td>
+
+                                      <table class="tg table-responsive">
+                                        <thead>
+                                        <tr>
+                                          <th class="tg-us36" colspan="10">Test SMS con parámetros</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                          <td class="tg-us36">Seleccionados</td>
+                                          <td class="tg-us38">0</td>
+                                          <td class="tg-us36">Premiados</td>
+                                          <td class="tg-us38">0</td>
+                                          <td class="tg-us36">Notificados</td>
+                                          <td class="tg-us38">0</td>
+                                          <td class="tg-us36">Errores</td>
+                                          <td class="tg-us38">0</td>
+                                          <td class="tg-us36">Efectividad</td>
+                                          <td class="tg-us38">0</td>
+                                        </tr>
+                                        </tbody>
+                                      </table>
+
+
+                                    </td>
+                                    <td>2018/06/18<br>19:24:17</td>
+                                    <td>2018/06/18<br>19:24:17</td>
+                                    <td>
+                                      <a href="#" class="ico-edit"><i class="ti-pencil"></i></a>
+                                      <a href="#" class="ico-eliminar"><i class="ti-trash"></i></a>
+                                      <a href="#" class="ico-play"><i class="ti-control-play"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>111</td>
+                                    <td>
+
+                                      <table class="tg table-responsive">
+                                        <thead>
+                                        <tr>
+                                          <th class="tg-us36" colspan="10">Campama Level UPI - autogestión</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                          <td class="tg-us36">Seleccionados</td>
+                                          <td class="tg-us38">0</td>
+                                          <td class="tg-us36">Premiados</td>
+                                          <td class="tg-us38">0</td>
+                                          <td class="tg-us36">Notificados</td>
+                                          <td class="tg-us38">0</td>
+                                          <td class="tg-us36">Errores</td>
+                                          <td class="tg-us38">0</td>
+                                          <td class="tg-us36">Efectividad</td>
+                                          <td class="tg-us38">0</td>
+                                        </tr>
+                                        </tbody>
+                                      </table>
+
+
+                                    </td>
+                                    <td>2018/06/18<br>19:24:17</td>
+                                    <td>2018/06/18<br>19:24:17</td>
+                                    <td>
+                                      <a href="#" class="ico-edit"><i class="ti-pencil"></i></a>
+                                      <a href="#" class="ico-eliminar"><i class="ti-trash"></i></a>
+                                      <a href="#" class="ico-play"><i class="ti-control-play"></i></a>
+                                    </td>
+                                </tr>
+                                
+                              </tbody>
+                            </table>
+                         
+                        </div><!-- Fin tab pausadas-->
+
+                        <div class="tab-pane fade" id="expirada" role="tabpanel" aria-labelledby="contact-tab">
+                          <div class="row mb-3">
+                            <div class="col-12">
+                              <h1 class="float-left">Campañas Expiradas</h1>
+                            </div>
+                         </div>
+                          <table id="order-listing" class="table table-responsive">
+                            <thead>
+                            <tr>
+                              <th>Código</th>
+                              <th>Nombre</th>
+                              <th>Inicio</th>
+                              <th>Término</th>
+                              <th>Acciones</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                              <td>115</td>
+                              <td>
+                                <table class="tg table-responsive">
+                                  <thead>
+                                  <tr>
+                                    <th class="tg-us36" colspan="10">Test Mailing</th>
+                                  </tr>
+                                  </thead>
+                                  <tbody>
+                                  <tr>
+                                    <td class="tg-us36">Seleccionados</td>
+                                    <td class="tg-us38">0</td>
+                                    <td class="tg-us36">Premiados</td>
+                                    <td class="tg-us38">0</td>
+                                    <td class="tg-us36">Notificados</td>
+                                    <td class="tg-us38">0</td>
+                                    <td class="tg-us36">Errores</td>
+                                    <td class="tg-us38">0</td>
+                                    <td class="tg-us36">Efectividad</td>
+                                    <td class="tg-us38">0</td>
+                                  </tr>
+                                  </tbody>
+                                </table>
+
+
+                              </td>
+                              <td>2018/06/18<br>19:24:17</td>
+                              <td>2018/06/18<br>19:24:17</td>
+                              <td>
+                                <a href="#" class="ico-edit"><i class="ti-pencil"></i></a>
+                                <a href="#" class="ico-eliminar"><i class="ti-trash"></i></a>
+                                <a href="#" class="ico-play"><i class="ti-control-play"></i></a>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>112</td>
+                              <td>
+
+                                <table class="tg table-responsive">
+                                  <thead>
+                                  <tr>
+                                    <th class="tg-us36" colspan="10">Test SMS con parámetros</th>
+                                  </tr>
+                                  </thead>
+                                  <tbody>
+                                  <tr>
+                                    <td class="tg-us36">Seleccionados</td>
+                                    <td class="tg-us38">0</td>
+                                    <td class="tg-us36">Premiados</td>
+                                    <td class="tg-us38">0</td>
+                                    <td class="tg-us36">Notificados</td>
+                                    <td class="tg-us38">0</td>
+                                    <td class="tg-us36">Errores</td>
+                                    <td class="tg-us38">0</td>
+                                    <td class="tg-us36">Efectividad</td>
+                                    <td class="tg-us38">0</td>
+                                  </tr>
+                                  </tbody>
+                                </table>
+
+
+                              </td>
+                              <td>2018/06/18<br>19:24:17</td>
+                              <td>2018/06/18<br>19:24:17</td>
+                              <td>
+                                <a href="#" class="ico-edit"><i class="ti-pencil"></i></a>
+                                <a href="#" class="ico-eliminar"><i class="ti-trash"></i></a>
+                                <a href="#" class="ico-play"><i class="ti-control-play"></i></a>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>111</td>
+                              <td>
+
+                                <table class="tg table-responsive">
+                                  <thead>
+                                  <tr>
+                                    <th class="tg-us36" colspan="10">Campama Level UPI - autogestión</th>
+                                  </tr>
+                                  </thead>
+                                  <tbody>
+                                  <tr>
+                                    <td class="tg-us36">Seleccionados</td>
+                                    <td class="tg-us38">0</td>
+                                    <td class="tg-us36">Premiados</td>
+                                    <td class="tg-us38">0</td>
+                                    <td class="tg-us36">Notificados</td>
+                                    <td class="tg-us38">0</td>
+                                    <td class="tg-us36">Errores</td>
+                                    <td class="tg-us38">0</td>
+                                    <td class="tg-us36">Efectividad</td>
+                                    <td class="tg-us38">0</td>
+                                  </tr>
+                                  </tbody>
+                                </table>
+
+
+                              </td>
+                              <td>2018/06/18<br>19:24:17</td>
+                              <td>2018/06/18<br>19:24:17</td>
+                              <td>
+                                <a href="#" class="ico-edit"><i class="ti-pencil"></i></a>
+                                <a href="#" class="ico-eliminar"><i class="ti-trash"></i></a>
+                                <a href="#" class="ico-play"><i class="ti-control-play"></i></a>
+                              </td>
+                            </tr>
+
+                            </tbody>
+                          </table>
+                        </div><!-- Fin tab expirada-->
+
+                        <div class="tab-pane fade" id="incorrecta" role="tabpanel" aria-labelledby="contact-tab">
+                          <div class="row mb-3">
+                          <div class="col-12">
+                            <h1 class="float-left">Campañas Configuración Incorrecta</h1>
+                          </div>
+                         </div>
+                         <table id="order-listing" class="table table-responsive">
+                              <thead>
+                                <tr>
+                                    <th>Código</th>
+                                    <th>Nombre</th>
+                                    <th>Inicio</th>
+                                    <th>Término</th>
+                                    <th>Acciones</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                    <td>dd</td>
+                                    <td>dd</td>
+                                    <td>dd</td>
+                                    <td>dd</td>
+                                    <td>dd</td>
+                                </tr>
+                                
+                              </tbody>
+                          </table>  
+                        </div><!-- Fin tab Config Incorrecta-->
+                      </div>
+                  </div> <!-- Fin contenedor Tabs-->   
+                                    
+                </div>
+              </div>
+            </div>
+
+
+            
+        <!-- content-wrapper ends -->
+        <!-- partial:../../partials/_footer.html -->
+        
+        <!-- partial -->
+      </div>
+      <!-- main-panel ends -->
+    </div>
+    <footer class="footer">
+          <div class="container-fluid clearfix">
+            <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Cmanager 2018 <a href="http://www.mbsolutions.cl/" target="_blank">MB  Solutions</a>. All rights reserved.</span>
+          </div>
+        </footer>
+    <!-- page-body-wrapper ends -->
+  </div>
+  <!-- container-scroller -->
+
+
+
+  <!-- plugins:js -->
+  <script src="../../vendors/js/vendor.bundle.base.js"></script>
+  <script src="../../vendors/js/vendor.bundle.addons.js"></script>
+  <!-- endinject -->
+  <!-- Plugin js for this page-->
+  <!-- End plugin js for this page-->
+  <!-- inject:js -->
+  <script src="../../js/off-canvas.js"></script>
+  <script src="../../js/hoverable-collapse.js"></script>
+  <script src="../../js/misc.js"></script>
+  <script src="../../js/settings.js"></script>
+  <script src="../../js/todolist.js"></script>
+  <!-- endinject -->
+  <!-- Custom js for this page-->
+  <!-- Custom js for this page-->
+  <script src="../../js/data-table.js"></script>
+  <!-- End custom js for this page-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  
+
+  <!-- Also include jQueryUI -->
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+  <!-- End custom js for this page-->
+        <script src="js/styleSwitcher.js"></script>
+        <script src="js/custom.js"></script>
+
+
+  <!-- End custom js for this page-->
+</body>
+
+</html>

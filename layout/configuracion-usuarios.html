@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Configuración - Usuarios</title>
+  <!-- plugins:css -->
+  <link rel="stylesheet" href="../../vendors/iconfonts/mdi/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="../../vendors/iconfonts/puse-icons-feather/feather.css">
+  <link rel="stylesheet" href="../../vendors/css/vendor.bundle.base.css">
+  <link rel="stylesheet" href="../../vendors/css/vendor.bundle.addons.css">
+  <!-- endinject -->
+  <!-- plugin css for this page -->
+  <!-- End plugin css for this page -->
+  <!-- inject:css -->
+  <link rel="stylesheet" href="../../css/style.css">
+  <link rel="stylesheet" href="../../css/cmanager.css">
+  <!-- endinject -->
+  <link rel="shortcut icon" href="" />
+</head>
+<body class="sidebar-fixed">
+  <div class="container-scroller">
+    <!-- partial:../../partials/_navbar.html -->
+    <nav class="navbar default-layout col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+      <div class="text-center navbar-brand-wrapper d-flex align-items-top justify-content-center">
+        <a class="navbar-brand brand-logo" href="#"></a>
+        <a class="navbar-brand brand-logo-mini" href="#"></a>
+      </div>
+      <div class="navbar-menu-wrapper d-flex align-items-center">
+        <!--<button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
+          <span class="mdi mdi-menu"></span>
+        </button>-->
+        
+        <ul class="navbar-nav navbar-nav-right">
+          <li class="nav-item dropdown">
+            <a class="nav-link count-indicator dropdown-toggle" id="messageDropdown" href="#" data-toggle="dropdown" aria-expanded="false">
+              <i class="mdi mdi-message-text-outline"></i>
+              <span class="count bg-warning">3</span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="messageDropdown">
+              <div class="dropdown-item py-3">
+                <p class="mb-0 font-weight-medium float-left">Tienes 3 mensajes no leidos
+                </p>
+                <span class="badge badge-inverse-info badge-pill float-right">Ver todo</span>
+              </div>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item preview-item">
+                <div class="preview-thumbnail">
+                  <img src="https://placehold.it/100x100" alt="image" class="profile-pic">
+                </div>
+                <div class="preview-item-content flex-grow">
+                  <h6 class="preview-subject ellipsis font-weight-normal text-dark mb-1">Alvaro Guzman
+                    <span class="float-right font-weight-light small-text text-gray">1 Min atrás</span>
+                  </h6>
+                  <p class="font-weight-light small-text mb-0">
+                    La reunión ha sido cancelada
+                  </p>
+                </div>
+              </a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item preview-item">
+                <div class="preview-thumbnail">
+                  <img src="https://placehold.it/100x100" alt="image" class="profile-pic">
+                </div>
+                <div class="preview-item-content flex-grow">
+                  <h6 class="preview-subject ellipsis font-weight-normal text-dark mb-1">Jorge Henriquez
+                    <span class="float-right font-weight-light small-text text-gray">15 Min atrás</span>
+                  </h6>
+                  <p class="font-weight-light small-text mb-0">
+                    Nueva campaña ha sido creada
+                  </p>
+                </div>
+              </a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item preview-item">
+                <div class="preview-thumbnail">
+                  <img src="https://placehold.it/100x100" alt="image" class="profile-pic">
+                </div>
+                <div class="preview-item-content flex-grow">
+                  <h6 class="preview-subject ellipsis font-weight-normal text-dark mb-1"> Jonathan Sanchez
+                    <span class="float-right font-weight-light small-text text-gray">8 Min atrás</span>
+                  </h6>
+                  <p class="font-weight-light small-text mb-0">
+                    Reunión agendada
+                  </p>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link count-indicator dropdown-toggle" id="notificationDropdown" href="#" data-toggle="dropdown">
+              <i class="mdi mdi-bell-outline"></i>
+              <span class="count bg-success">4</span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="notificationDropdown">
+              <a class="dropdown-item py-3">
+                <p class="mb-0 font-weight-medium float-left">Tienes 3 notificaciones
+                </p>
+                <span class="badge badge-pill badge-inverse-info float-right">Ver todo</span>
+              </a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item preview-item">
+                <div class="preview-thumbnail">
+                  <div class="preview-icon bg-inverse-success">
+                    <i class="mdi mdi-alert-circle-outline mx-0"></i>
+                  </div>
+                </div>
+                <div class="preview-item-content">
+                  <h6 class="preview-subject font-weight-normal text-dark mb-1">Erro de aplicación</h6>
+                  <p class="font-weight-light small-text mb-0">
+                    Recién
+                  </p>
+                </div>
+              </a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item preview-item">
+                <div class="preview-thumbnail">
+                  <div class="preview-icon bg-inverse-warning">
+                    <i class="mdi mdi-comment-text-outline mx-0"></i>
+                  </div>
+                </div>
+                <div class="preview-item-content">
+                  <h6 class="preview-subject font-weight-normal text-dark mb-1">Configuración Cmanager</h6>
+                  <p class="font-weight-light small-text mb-0">
+                    Mensaje privado
+                  </p>
+                </div>
+              </a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item preview-item">
+                <div class="preview-thumbnail">
+                  <div class="preview-icon bg-inverse-info">
+                    <i class="mdi mdi-email-outline mx-0"></i>
+                  </div>
+                </div>
+                <div class="preview-item-content">
+                  <h6 class="preview-subject font-weight-normal text-dark mb-1">Nuevo usuario</h6>
+                  <p class="font-weight-light small-text mb-0">
+                    2 días atrás
+                  </p>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li class="nav-item d-lg-block color-setting">
+            <a class="nav-link" href="#">
+              <i class="mdi mdi-tune"></i>
+            </a>
+          </li>
+          <li class="nav-item dropdown d-none d-xl-inline-block">
+            <a class="nav-link dropdown-toggle" id="UserDropdown" href="#" data-toggle="dropdown" aria-expanded="false">
+              <span class="mr-3">Hola, Paul!</span><img class="img-xs rounded-circle" src="../../images/imgmb/img-perfil.png" alt="Profile image">
+            </a>
+            <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="UserDropdown">
+              <a class="dropdown-item p-0">
+                <div class="d-flex border-bottom">
+                  <div class="py-3 px-4 d-flex align-items-center justify-content-center"><i class="mdi mdi-bookmark-plus-outline mr-0 text-gray"></i></div>
+                  <div class="py-3 px-4 d-flex align-items-center justify-content-center border-left border-right"><i class="mdi mdi-account-outline mr-0 text-gray"></i></div>
+                  <div class="py-3 px-4 d-flex align-items-center justify-content-center"><i class="mdi mdi-alarm-check mr-0 text-gray"></i></div>
+                </div>
+              </a>
+              <a class="dropdown-item mt-2">
+                Mi cuenta
+              </a>
+              <a class="dropdown-item">
+                Cambiar contraseña
+              </a>
+              <a class="dropdown-item">
+                Revisar inbox
+              </a>
+              <a class="dropdown-item">
+                Salir
+              </a>
+            </div>
+          </li>
+        </ul>
+        <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
+          <span class="icon-menu"></span>
+        </button>
+      </div>
+    </nav>
+    <!-- partial -->
+    <div class="container-fluid page-body-wrapper">
+      <!-- partial:../../partials/_settings-panel.html -->
+      <!-- partial -->
+      <!-- partial:../../partials/_sidebar.html -->
+        <div class="theme-setting-wrapper">
+            <div id="theme-settings" class="settings-panel">
+                <p class="text-center">Selecciona diseño de tu agrado</p>
+                <select name="themepick" id="themepick" class="form-control border-warning">
+                    <option value="defaultstyles" selected>Diseño Original</option>
+                    <option value="customstyle1">Theme Rojo</option>
+                    <option value="customstyle2">Theme Azul</option>
+                    <option value="customstyle3">Theme Green</option>
+                </select>
+
+            </div>
+        </div>
+      <nav class="sidebar sidebar-offcanvas" id="sidebar">
+        <div class="d-flex flex-row mt-2 tabs-menu">
+          <ul class="nav nav-tabs nav-tabs--vertical nav-tabs--left" role="navigation">
+            <li class="nav-item">
+
+              <a href="dashboard.html" class="nav-link"><img class="img-menu" src="../../images/menu_icons/01.png" alt="menu icon">Dashboard</a>
+            </li>
+            <li class="nav-item">
+              <a href="informes.html" class="nav-link"><img class="img-menu" src="../../images/menu_icons/19.png" alt="menu icon">Informes</a>
+            </li>
+            <li class="nav-item">
+              <a href="analisis.html" class="nav-link"><img class="img-menu" src="../../images/menu_icons/03.png" alt="menu icon">Análisis</a>
+            </li>
+            <li class="nav-item">
+              <a href="campanas.html" class="nav-link"><img class="img-menu" src="../../images/menu_icons/09.png" alt="menu icon">Campañas</a>
+            </li>
+            <li class="nav-item">
+              <a href="configuracion.html" class="nav-link active"><img class="img-menu" src="../../images/menu_icons/05.png" alt="menu icon">Configuración</a>
+            </li>
+          </ul>
+          <div class="tab-menu contenedor-tabs-menu">
+            <div class="tab-content">
+            <div class="tab-pane fade" id="dashboard" role="tabpanel">
+              
+            </div>
+            <div class="tab-pane fade" id="informes" role="tabpanel">
+              
+            </div>
+            <div class="tab-pane fade" id="analisis" role="tabpanel">
+
+            </div>
+            <div class="tab-pane fade" id="campanas" role="tabpanel">
+    
+            </div>
+            <div class="tab-pane active" id="configuracion" role="tabpanel">
+              <span class="ttl-barra-vertical">Configuración</span>
+              <ul class="sub-menu">
+                <li class=""> <a class="active" href="configuracion-usuarios.html">Usuarios</a> </li>
+                <li class=""> <a class="" href="configuracion-roles.html">Roles</a> </li>
+                <li class=""> <a class="" href="configuracion-tariff.html">Tariff</a> </li>
+                <li class=""> <a class="" href="configuracion-bundle.html">Bundle</a> </li>
+                <li class=""> <a class="" href="configuracion-cds.html">CDS</a> </li>
+                <li class=""> <a class="" href="configuracion-fuente-de-datos.html">Fuente de Datos</a> </li>
+                <li class=""> <a class="" href="configuracion-auditoria.html">Auditoría</a> </li>
+              </ul>
+            </div>
+          </div>
+          </div>
+        </div>
+        
+      </nav>
+      <!-- partial -->
+      <div class="main-panel">
+        <div class="content-wrapper">
+          <div class="row">
+            <div class="col-12 grid-margin">
+              <div class="card card-mb">
+                <div class="card-body card-body-mb">
+   
+                                  
+                </div>
+              </div>
+            </div>
+            <div class="col-12 grid-margin">
+              <div class="card card-mb">
+                <div class="card-body card-body-mb">
+                  <div class="row">
+                    <div class="col-md-12 h-100">
+                      <div class="bg-light">
+                        
+                        <div class="py-2">
+                          <div class="card">
+                            
+                            <div class="card-body altura">
+
+                              <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                  <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                  <li class="breadcrumb-item">Configuración</li>
+                                  <li class="breadcrumb-item active" aria-current="page">Usuarios</li>
+                                </ol>
+                              </nav><!-- Fin bredcumb -->
+
+                              <div class="row">
+                                <div class="col-12">
+                                  <h1 class="float-left">Usuarios</h1>
+                                </div>
+                              </div>
+
+                            </div>
+
+                          </div>                   
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            
+        <!-- content-wrapper ends -->
+        <!-- partial:../../partials/_footer.html -->
+        <footer class="footer">
+          <div class="container-fluid clearfix">
+            <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Cmanager 2018 <a href="http://www.mbsolutions.cl/" target="_blank">MB  Solutions</a>. All rights reserved.</span>
+          </div>
+        </footer>
+        <!-- partial -->
+      </div>
+      <!-- main-panel ends -->
+    </div>
+    <!-- page-body-wrapper ends -->
+  </div>
+  <!-- container-scroller -->
+
+  <!-- plugins:js -->
+  <script src="../../vendors/js/vendor.bundle.base.js"></script>
+  <script src="../../vendors/js/vendor.bundle.addons.js"></script>
+  <!-- endinject -->
+  <!-- Plugin js for this page-->
+  <!-- End plugin js for this page-->
+  <!-- inject:js -->
+  <script src="../../js/off-canvas.js"></script>
+  <script src="../../js/hoverable-collapse.js"></script>
+  <script src="../../js/misc.js"></script>
+  <script src="../../js/settings.js"></script>
+  <script src="../../js/todolist.js"></script>
+  <!-- endinject -->
+  <!-- Custom js for this page-->
+  <script src="../../js/dashboard.js"></script>
+  <!-- End custom js for this page-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <!-- Also include jQueryUI -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+  <!-- End custom js for this page-->
+        <script src="js/styleSwitcher.js"></script>
+        <script src="js/custom.js"></script>
+  <!-- End custom js for this page-->
+</body>
+
+</html>
