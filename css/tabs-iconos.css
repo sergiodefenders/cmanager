@@ -1,0 +1,248 @@
+/*iconos*/
+
+#profile-list-left {
+    display: flex;
+    flex-wrap: wrap;
+}
+a.no-link, a.no-link:hover {
+  text-decoration: none!important;
+  display: block;
+}
+a.winston2, a.winston2:hover {
+  text-decoration: none!important;
+  display: block;
+  width: 100px;
+}
+.icono-campanas {
+    padding: 8px;
+    margin: 0 10px 8px 10px;
+    border-radius: 5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    background: #000;
+}
+.sin-fondo {
+    background:none!important;
+}
+.icono-campanas i {
+    display: block;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px auto 10px auto;
+    line-height: 0;
+}
+.icono-campanas-width i {
+    display: block;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px auto 10px auto;
+    line-height: 0;
+}
+.icono-campanas-ttl {
+  font-size: 10px;
+  font-weight: bold;
+  color: #666;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  max-width: 60px;
+  line-height: 12px;
+  display: block;
+}
+.icono-campanas-txt {
+    font-size: 8px;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+.icono-campanas-cuadro {
+    display: block;
+    width: 60px;
+    height: 60px;
+}
+.icono-campanas-circulo {
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: auto;
+    min-width: 60px;
+    height: 60px;
+    padding-top: 9px;
+}
+/*
+.icono-campanas-rombo {
+    -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    width: 70px;
+    height: 70px;
+    padding-top: 15px;
+}
+*/
+.icono-campanas-rombo {
+    background: #428bca;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    width: 60px;
+    height: 60px;
+    margin: 10px 20px 17px 20px;
+    position: relative;
+}
+.icono-campanas-rombo i {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 12px;
+    left: 22px;
+    right: 22px;
+
+}
+.icono-campanas-width {
+    width: 100px;
+    height: 100px;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    background: #000;
+    position: relative;
+}
+.icono-campanas-width .icono-campanas-ttl, .icono-campanas-width .icono-campanas-txt {
+    color: #fff;
+}
+.ico-cerrar {
+    position: absolute;
+    left: 2px;
+    top: -7px;
+    width: 18px;
+    height: 18px;
+    background:url(../images/imgmb/ico-cerrar.png);
+    background-size: 18px;
+    z-index: 1;
+}
+.ico-enlace1 {
+    width: 20px;
+    height: 20px;
+    background: #08d26f;
+    border-radius: 4px;
+    top: 0px;
+    left: 115px;
+    position: absolute;
+    z-index: 2;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 3px;
+}
+.ico-enlace2 {
+    width: 20px;
+    height: 20px;
+    background: #08d26f;
+    border-radius: 4px;
+    top: 22px;
+    left: 115px;
+    position: absolute;
+    z-index: 2;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 3px;
+}
+.ico-enlace3 {
+    width: 20px;
+    height: 20px;
+    background: #08d26f;
+    border-radius: 4px;
+    top: 44px;
+    left: 115px;
+    position: absolute;
+    z-index: 2;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 3px;
+}
+
+/* color iconos*/
+.ico-campanas-verde {
+  background: #6dc066;
+}
+.ico-campanas-fucsia {
+  background: #ff1493;
+}
+.ico-campanas-amarillo {
+  background: #ffd700;
+}
+.ico-campanas-rojo {
+  background: #ff4444;
+}
+.ico-campanas-cian {
+  background:#0099cc;
+}
+.ico-campanas-cianclaro {
+  background:#6897bb;
+}
+.ico-campanas-lilaclaro {
+  background:#3b5998;
+}
+.ico-campanas-beige {
+  background:#999999;
+}
+.ico-campanas-violeta {
+  background:#8a2be2;
+}
+.ico-campanas-mostaza {
+  background:#daa520;
+}
+.ico-campanas-carmesi {
+  background:#990000;
+}
+.ico-campanas-turquesa {
+  background:#86d0d0;
+}
+.ico-campanas-naranjo {
+  background:#eb7304;
+}
+.ico-campanas-beigeoscuro {
+  background:#c39797;
+}
+.ico-campanas-rosado {
+  background:#ffc0cb;
+}
+.ico-campanas-gris {
+  background:#666666;
+}
+
+.tabs-genericas h1 {
+    font-size: 22px;
+}
+.tabs-genericas .bg-tabs {
+    background: #ffffff!important;
+    padding: 30px 30px 200px 30px;
+    height: auto;
+}
+.tabs-genericas .tab-basic .nav-item .nav-link.active {
+    background: #ffffff!important;
+    border-bottom: 1px solid #ffffff;
+}
+.sub-tabla thead tr th {
+  text-transform: uppercase;
+}
+.tabs-genericas.table td, .tabs-genericas .jsgrid .jsgrid-table td, .tabs-genericas .table th, .tabs-genericas .jsgrid .jsgrid-table th {
+    vertical-align: middle;
+    font-size: 0.8rem;
+    line-height: 1;
+    padding: 7px 10px;
+}
