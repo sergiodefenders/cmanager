@@ -4,7 +4,8 @@
 
 /*botones-------------------------------------------------------------------------------*/
 .btn-success {
-    color: #fff;
+    /*color: #fff;*/
+    color: yellow;
     background-color: #d54a1a;
     border-color: #bd3100;
 }
